@@ -21,15 +21,15 @@ def last_student_by_index
 end
 
 def first_student_by_method
-  puts STUDENT_NAMES.first
+  return STUDENT_NAMES.first
 end
 
 def last_student_by_method
-  puts STUDENT_NAMES.last 
+  return STUDENT_NAMES.last 
 end
 
 def first_second_and_third_students
-  puts STUDENT_NAMES[0..2]
+  return STUDENT_NAMES[0..2]
 end
 
 first_student_by_index
