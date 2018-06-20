@@ -8,7 +8,14 @@ STUDENT_NAMES = [
 ]
 
 def first_student_by_index
-  puts STUDENT_NAMES[0]
+  STUDENT_NAMES = [
+  "Adele",
+  "Beyoncé",
+  "Cardi B",
+  "Lady Gaga",
+  "Nicki Minaj",
+  "Rihanna"
+]puts STUDENT_NAMES[0]
 end
 
 
